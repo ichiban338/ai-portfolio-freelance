@@ -1,182 +1,198 @@
-# AI Portfolio — 5 Proyectos de Inteligencia Artificial
+# 🤖 Portafolio de Inteligencia Artificial — Juan Esteban Agudelo
 
-> **Freelancer especializado en automatizacion con IA**
-> Python · Claude API · Dashboards · Chatbots · Analisis de Datos
+**Freelancer especializado en soluciones de IA aplicadas a negocios reales.**
+Automatizo procesos, construyo chatbots inteligentes y convierto datos en decisiones
+con dashboards ejecutivos — usando Python, Claude API y las herramientas correctas para cada problema.
 
----
-
-## Proyectos
-
-### 1. Chatbot FAQ Inteligente — TrendStore
-Chatbot conversacional que automatiza respuestas a preguntas frecuentes de una tienda
-e-commerce. Integrado con Claude API, resuelve el 74% de consultas sin intervencion humana.
-
-**Stack:** Python · Claude API · Flask
-**Resultado:** 1,240 consultas/mes · CSAT 4.4/5 · -61% carga de soporte
-
-![Dashboard P1](p1_chatbot_faq/outputs/dashboard_p1_chatbot.png)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Juan%20Esteban%20Agudelo-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/juan-esteban-agudelo-alonso/)
 
 ---
 
-### 2. Contestadora AI Automatizada — TechSolve
-Sistema de atencion automatica por voz y SMS para soporte tecnico B2B.
-Clasifica intenciones, resuelve casos comunes y escala con contexto completo.
+## 🛠️ Servicios
 
-**Stack:** Python · Claude API · Twilio · Flask
-**Resultado:** 720 llamadas/mes · 68% resolucion auto · -44% costo operativo
-
-![Dashboard P2](p2_contestadora_soporte/outputs/dashboard_p2_contestadora.png)
-
----
-
-### 3. Dashboard KPI Ventas — MegaMart
-Panel ejecutivo interactivo para cadena de 12 sucursales. Centraliza ventas,
-tendencias por categoria, rendimiento por sucursal y alertas de inventario.
-
-**Stack:** Python · Pandas · Matplotlib · openpyxl
-**Resultado:** 8 hrs/semana ahorradas · alertas de stock en tiempo real
-
-![Dashboard P3](p3_dashboard_ventas/outputs/dashboard_p3_ventas.png)
+| Servicio | Descripcion |
+|----------|-------------|
+| 💬 Chatbots y Asistentes AI | Bots conversacionales con Claude/GPT para atencion al cliente, soporte y ventas |
+| ⚙️ Automatizacion de Procesos | Flujos automaticos que eliminan tareas repetitivas y reducen errores operativos |
+| 📊 Dashboards y Analisis de Datos | Paneles ejecutivos interactivos que transforman datos en decisiones estrategicas |
 
 ---
 
-### 4. Asistente AI con Reportes — DigitalPulse Agency
-Asistente conversacional que responde consultas sobre campanas de marketing
-y genera reportes ejecutivos automaticamente con insights estrategicos.
+## 📁 Proyectos
 
-**Stack:** Python · Claude API · Matplotlib
-**Resultado:** 35 reportes/mes sin intervencion · ROAS promedio 4.2x
+### 01 · Chatbot FAQ Inteligente — TrendStore (E-Commerce)
 
-![Dashboard P4](p4_asistente_marketing/outputs/dashboard_p4_marketing.png)
+> Chatbot que automatiza respuestas a preguntas frecuentes de clientes con disponibilidad 24/7.
+
+**El problema:** una tienda online recibía +400 consultas semanales sobre envíos, devoluciones y
+pedidos. El equipo de soporte tardaba hasta 6 horas en responder, generando abandono de carritos.
+
+**La solución:** chatbot con Claude API entrenado en la base de conocimiento de la tienda, integrado
+en la web, que responde en 2 segundos y escala solo los casos complejos al equipo humano.
+
+**Stack:** `Python` `Claude API` `Flask` `JSON`
+
+| Metrica | Resultado |
+|---------|-----------|
+| Consultas gestionadas/mes | 1,240 |
+| Resolucion automatica | 74% |
+| Tiempo de respuesta | 2.1 seg |
+| CSAT | 4.4 / 5.0 |
+| Reduccion carga de soporte | 61% |
+
+![Dashboard Chatbot FAQ](portfolio/p1_chatbot_faq/outputs/dashboard_p1_chatbot.png)
 
 ---
 
-### 5. Contestadora + Analisis de Datos — ContactPro
-Contestadora inteligente para call center que transforma cada interaccion en
-datos estructurados para optimizar operaciones y reducir costos.
+### 02 · Contestadora AI Automatizada — TechSolve (Soporte Tecnico B2B)
 
-**Stack:** Python · Claude API · Pandas · Twilio
-**Resultado:** 62% resolucion auto · ahorro estimado $4,200/mes
+> Sistema de atencion automatica por voz y SMS para primera linea de soporte tecnico.
 
-![Dashboard P5](p5_callcenter_analytics/outputs/dashboard_p5_callcenter.png)
+**El problema:** empresa de software con 500 clientes activos recibía 180 llamadas semanales.
+El 40% fuera de horario quedaban sin respuesta, impactando la retención de clientes.
+
+**La solución:** contestadora inteligente con Twilio + Claude API que clasifica la consulta,
+resuelve casos comunes paso a paso y transfiere casos complejos con contexto completo al agente.
+
+**Stack:** `Python` `Claude API` `Twilio` `Flask`
+
+| Metrica | Resultado |
+|---------|-----------|
+| Llamadas gestionadas/mes | 720 |
+| Resolucion automatica | 68% |
+| Duracion promedio | 3.2 min |
+| Disponibilidad | 99.7% |
+| Reduccion costo operativo | 44% |
+
+![Dashboard Contestadora](portfolio/p2_contestadora_soporte/outputs/dashboard_p2_contestadora.png)
 
 ---
 
-## Como ejecutar cualquier proyecto
+### 03 · Dashboard KPI Ventas — MegaMart (Retail 12 Sucursales)
+
+> Panel ejecutivo que centraliza ventas, tendencias, rendimiento por sucursal y alertas de stock.
+
+**El problema:** cadena de 12 tiendas gestionaba reportes en hojas de calculo separadas.
+Los gerentes tardaban 2 dias en consolidar datos y tomaban decisiones con informacion desactualizada.
+
+**La solución:** dashboard interactivo generado automaticamente con Python + Pandas que muestra
+KPIs en tiempo real, detecta quiebres de stock antes de que ocurran y elimina reportes manuales.
+
+**Stack:** `Python` `Pandas` `Matplotlib` `openpyxl`
+
+| Metrica | Resultado |
+|---------|-----------|
+| Sucursales monitoreadas | 12 |
+| Tiempo ahorrado en reportes | 8 hrs/semana |
+| Productos con alerta de stock | Deteccion automatica |
+| Tasa de conversion promedio | 7.2% |
+
+![Dashboard KPI Ventas](portfolio/p3_dashboard_ventas/outputs/dashboard_p3_ventas.png)
+
+---
+
+### 04 · Asistente AI con Reportes — DigitalPulse (Agencia de Marketing)
+
+> Asistente conversacional que consulta metricas de campanas y genera reportes ejecutivos con IA.
+
+**El problema:** agencia con 35 clientes invertia 12 horas semanales consolidando metricas de
+Meta, Google Ads y email marketing para armar reportes manuales.
+
+**La solución:** asistente que responde en lenguaje natural sobre el estado de cualquier campana
+y genera reportes ejecutivos automaticamente con insights y recomendaciones estrategicas.
+
+**Stack:** `Python` `Claude API` `Pandas` `Matplotlib`
+
+| Metrica | Resultado |
+|---------|-----------|
+| Consultas gestionadas/mes | 340 |
+| Reportes generados automaticamente | 35 / mes |
+| Tiempo ahorrado | 9.5 hrs/semana |
+| ROAS promedio cartera | 4.2x |
+| CSAT asistente | 4.6 / 5.0 |
+
+![Dashboard Marketing](portfolio/p4_asistente_marketing/outputs/dashboard_p4_marketing.png)
+
+---
+
+### 05 · Contestadora Inteligente + Analisis — ContactPro (Call Center)
+
+> Sistema que automatiza la atencion y convierte cada llamada en datos estrategicos accionables.
+
+**El problema:** call center con 48 agentes sin visibilidad sobre que temas generaban mas llamadas,
+en que horarios se saturaba el sistema, ni que porcentaje podia resolverse automaticamente.
+
+**La solución:** contestadora AI que clasifica y resuelve consultas automaticamente, registra
+cada interaccion como dato estructurado y genera dashboards + reportes de insights para optimizar
+operaciones y distribucion de agentes.
+
+**Stack:** `Python` `Claude API` `Pandas` `Twilio` `Matplotlib`
+
+| Metrica | Resultado |
+|---------|-----------|
+| Interacciones analizadas | 3,200 / mes |
+| Resolucion automatica | 62% |
+| Reduccion tiempo de espera | 38% |
+| Ahorro operativo estimado | $4,200 / mes |
+| Payback estimado | < 2 meses |
+
+![Dashboard Call Center](portfolio/p5_callcenter_analytics/outputs/dashboard_p5_callcenter.png)
+
+---
+
+## 🚀 Como ejecutar los proyectos
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/TU_USUARIO/ai-portfolio-freelance.git
-cd ai-portfolio-freelance
+git clone https://github.com/ichiban338/ai-portfolio-freelance.git
+cd ai-portfolio-freelance/portfolio
 
 # 2. Instalar dependencias
 pip install -r requirements.txt
 
-# 3. (Opcional) Configurar API key
-set ANTHROPIC_API_KEY=sk-ant-tu-clave-aqui
+# 3. (Opcional) Activar respuestas reales con Claude
+set ANTHROPIC_API_KEY=sk-ant-tu-clave-aqui   # Windows
+export ANTHROPIC_API_KEY=sk-ant-...           # Mac/Linux
 
-# 4. Generar todos los dashboards
+# 4. Generar todos los dashboards de una vez
 python generate_all.py
 
-# 5. O demo de un proyecto especifico
+# 5. O correr el demo de un proyecto especifico
 python p1_chatbot_faq/demo.py
 ```
 
-> Sin API key los proyectos funcionan en modo demo con respuestas simuladas.
+> **Sin API key:** todos los proyectos funcionan en modo demo con respuestas simuladas realistas.
 
 ---
 
-*Metricas presentadas son simuladas con fines demostrativos.*
+## 🧱 Estructura del repositorio
 
----
-
-# Portfolio de Inteligencia Artificial — 5 Proyectos Completos
-
-> Freelancer AI Portfolio | Python + Claude API + Data Analytics
-> Estructura modular, codigo funcional, dashboards reales, READMEs ejecutables.
-
----
-
-## Proyectos incluidos
-
-| # | Proyecto | Empresa | Stack principal | Dashboard |
-|---|----------|---------|-----------------|-----------|
-| 1 | Chatbot FAQ Inteligente | TrendStore (E-Commerce) | Python, Claude API, Flask | dashboard_p1_chatbot.png |
-| 2 | Contestadora AI Automatizada | TechSolve (Soporte B2B) | Python, Claude API, Twilio, Flask | dashboard_p2_contestadora.png |
-| 3 | Dashboard KPI Ventas | MegaMart (Retail 12 suc.) | Python, Pandas, Matplotlib | dashboard_p3_ventas.png |
-| 4 | Asistente AI con Reportes | DigitalPulse (Marketing) | Python, Claude API, Matplotlib | dashboard_p4_marketing.png |
-| 5 | Contestadora + Analisis | ContactPro (Call Center) | Python, Pandas, Claude API | dashboard_p5_callcenter.png |
-
----
-
-## Mejoras implementadas vs version anterior
-
-### 1. Codigo modular (separacion de responsabilidades)
-Cada proyecto tiene estructura clara: `config/`, `src/`, `outputs/`, `docs/`.
-La logica de negocio, la API, los datos y la UI estan en modulos separados.
-
-### 2. READMEs ejecutables por proyecto
-Cada proyecto incluye:
-- Instrucciones de instalacion paso a paso
-- Comandos exactos para correr el demo
-- Salida esperada documentada
-- Como conectar datos reales
-- Tabla de endpoints o integraciones
-
-### 3. Dashboards renderizados como outputs reales
-Los 5 dashboards son imagenes PNG de alta resolucion (150dpi, 22x14")
-generadas por el codigo Python incluido. No son mockups ni screenshots
-de otras herramientas: son el output real del codigo del portafolio.
-
----
-
-## Instalacion global
-
-```bash
-# Clonar repositorio
-git clone <repo-url>
-cd portfolio-ai
-
-# Instalar dependencias (todas compatibles)
-pip install -r requirements-global.txt
-
-# Generar todos los dashboards de una vez
-python generate_all.py
+```
+ai-portfolio-freelance/
+└── portfolio/
+    ├── p1_chatbot_faq/
+    │   ├── config/
+    │   ├── src/
+    │   ├── outputs/        <- dashboards PNG
+    │   ├── demo.py
+    │   └── README.md
+    ├── p2_contestadora_soporte/
+    ├── p3_dashboard_ventas/
+    ├── p4_asistente_marketing/
+    ├── p5_callcenter_analytics/
+    ├── generate_all.py
+    └── requirements.txt
 ```
 
 ---
 
-## Uso sin API key (modo demo)
+## 📬 Contacto
 
-Todos los proyectos funcionan sin configurar ANTHROPIC_API_KEY.
-En ese caso, el motor de IA usa respuestas simuladas realistas (stub mode)
-para que el cliente pueda ver el flujo completo sin costo.
+¿Tienes un proceso que quieres automatizar o datos que no sabes como aprovechar?
 
-Para activar respuestas reales con Claude:
-```bash
-export ANTHROPIC_API_KEY="sk-ant-tu-clave-aqui"
-```
+[![LinkedIn](https://img.shields.io/badge/Escribeme%20en-LinkedIn-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/juan-esteban-agudelo-alonso/)
 
 ---
 
-## Dependencias globales
-
-```
-anthropic>=0.30.0
-flask>=3.0.0
-twilio>=8.0.0
-pandas>=2.0.0
-numpy>=1.24.0
-matplotlib>=3.7.0
-openpyxl>=3.1.0
-python-dotenv>=1.0.0
-```
-
----
-
-## Notas
-
-- Las metricas en todos los proyectos son simuladas con fines demostrativos.
-- El codigo es funcional y extensible; adaptable a datos y sistemas reales.
-- Cada proyecto puede desplegarse de forma independiente.
-- Los dashboards se regeneran automaticamente al ejecutar cada proyecto.
+*Las metricas presentadas en este portafolio son simuladas con fines demostrativos.
+El codigo es funcional y adaptable a datos y sistemas reales de cada cliente.*
